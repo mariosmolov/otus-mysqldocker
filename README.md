@@ -29,7 +29,7 @@ mysql cluster
                 "role": "HA",
                 "shellConnectError": "MySQL Error 2005 (HY000): Unknown MySQL server host 'node1' (2)",
                 "status": "ONLINE",
-                "version": "8.0.12"
+                "version": "8.0.15"
             },
             "node2:3306": {
                 "address": "node2:3306",
@@ -38,7 +38,7 @@ mysql cluster
                 "role": "HA",
                 "shellConnectError": "MySQL Error 2005 (HY000): Unknown MySQL server host 'node2' (2)",
                 "status": "ONLINE",
-                "version": "8.0.12"
+                "version": "8.0.15"
             },
             "node3:3306": {
                 "address": "node3:3306",
@@ -47,7 +47,7 @@ mysql cluster
                 "role": "HA",
                 "shellConnectError": "MySQL Error 2005 (HY000): Unknown MySQL server host 'node3' (2)",
                 "status": "ONLINE",
-                "version": "8.0.12"
+                "version": "8.0.15"
             }
         },
         "topologyMode": "Single-Primary"
