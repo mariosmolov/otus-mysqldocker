@@ -2,7 +2,6 @@
 
 mysql cluster
 развернуть InnoDB кластер в docker
-* в docker swarm
 
 # Работоспособность
 
