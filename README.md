@@ -7,5 +7,14 @@ mysql cluster
 
 Поднимаем контейнеры `docker-compose up -d`
 
-Заходим `mysqlsh -u root -P6446 -h 127.0.0.1 -pmysql`
+Далее смотрим ID контейнера mysql-router и заходим в него `docker exec -it 7d34bf1256b5 bash`
 
+![1](https://github.com/mariosmolov/otus-mysqldocker/blob/master/Screenshot_6.png)
+
+Устанвливаем mysql-shell `yum install mysql-shell -y` и заходим в него `mysqlsh`
+
+Коннектимся к базе `shell.connect('root@otus-mysqldocker_mysql-router_1:6446', 'mysql')`
+
+Чекаем кластер
+
+![2](https://github.com/mariosmolov/otus-mysqldocker/blob/master/Screenshot_5.png)
